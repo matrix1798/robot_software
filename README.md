@@ -1,6 +1,6 @@
 # Robot setup - instrukcja 
 
-Repozytorium zawiera kod i instrukcję instalacji i uruchomienia programu sterującego [robotem do autonomicznego mapowania terenu](https://github.com/adasbl/Projekt-Grupowy-ID-656.git).
+Repozytorium zawiera kod, instrukcję instalacji i uruchomienia programu sterującego [robotem do autonomicznego mapowania terenu](https://github.com/adasbl/Projekt-Grupowy-ID-656.git).
 
 ##  Wymagania wstępne
 
