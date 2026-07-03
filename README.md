@@ -39,7 +39,7 @@ Ponieważ pakiet eksploracji [m-explore](https://github.com/robo-friends/m-explo
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
-git clone https://github.com/matrix1798/robot_sofware.git
+git clone https://github.com/matrix1798/robot_software.git
 
 git clone https://github.com/robo-friends/m-explore-ros2.git
 
@@ -63,6 +63,6 @@ export ROS_DOMAIN_ID=30
 Gdy wszystko jest już zainstalowane i zbudowane, uruchomienie Panelu Sterowania sprowadza się do jednej komendy.
 
 ```bash
-python3 ~/ros2_ws/src/robot_sofware/control_panel.py
+python3 ~/ros2_ws/src/robot_software/control_panel.py
 ```
 F
