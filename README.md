@@ -35,12 +35,13 @@ sudo apt install ros-humble-navigation2 \
 
 Ponieważ pakiet eksploracji [m-explore](https://github.com/robo-friends/m-explore-ros2.git) nie jest oficjalnie dostępny w repozytoriach binarnych apt dla dystrybucji Humble, musimy pobrać jego port społecznościowy i zbudować go ręcznie ze źródeł wraz z Panelem Sterowania
 
+Panel Sterowania znajduje się w podmodule `robot-software-setup` głównego projektu. Opcja `--recurse-submodules` pobiera także ten kod.
+
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
 git clone https://github.com/matrix1798/robot_software.git
-
 git clone https://github.com/robo-friends/m-explore-ros2.git
 
 cd ~/ros2_ws
@@ -65,4 +66,3 @@ Gdy wszystko jest już zainstalowane i zbudowane, uruchomienie Panelu Sterowania
 ```bash
 python3 ~/ros2_ws/src/robot_software/control_panel.py
 ```
-F
